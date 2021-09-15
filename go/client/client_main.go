@@ -12,6 +12,7 @@ const (
 	addr = "localhost:3000"
 	name = "liqiming"
 )
+
 func main() {
 	dial, err := grpc.Dial(addr, grpc.WithInsecure(), grpc.WithBlock())
 	if err != nil {
