@@ -1,5 +1,6 @@
 syntax = "proto3";
-option go_package = "example.com/project/protos/fizz";
+option go_package = "example.com/project/protos/hello";
+option java_package = "example.com.liqiming.protos.hello";
 service HelloService {
   rpc SayHello(HelloRequest) returns (HelloReply) {}
 }
