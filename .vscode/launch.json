@@ -8,8 +8,7 @@
       "type": "java",
       "name": "Launch Java server",
       "request": "launch",
-      "projectName": "grpc-demo-server",
-      "mainClass": "com.grpc.demo.lqm.App"
+      "mainClass": "${file}"
     },
     {
       "type": "java",
