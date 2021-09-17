@@ -1,7 +1,6 @@
 {
   "name": "proto",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "description": "a demo for grpc node",
   "author": "liqiming",
