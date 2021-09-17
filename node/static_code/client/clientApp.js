@@ -6,7 +6,7 @@ const client = new services.HelloServiceClient(target, grpc.credentials.createIn
 
 const request = new messages.HelloRequest();
 
-request.setName('liqiming')
+request.setName('liqiming node static')
 
 client.sayHello(request, function (err, response) {
     console.log('Greeting:', response.getMessage());
