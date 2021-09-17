@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/asim/go-micro/v3"
 	"log"
-	helloPb "lqm.demo.grpc.gomicro/server/proto"
+	helloPb "lqm.demo.grpc.gomicro/proto"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/asim/go-micro/v3"
 	"log"
-	helloPb "lqm.demo.grpc.gomicro/server/proto"
+	helloPb "lqm.demo.grpc.gomicro/proto"
 	serviceHandler "lqm.demo.grpc.gomicro/server/service_handler"
 )
 
