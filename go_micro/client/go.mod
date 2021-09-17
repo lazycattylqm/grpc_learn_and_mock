@@ -4,7 +4,6 @@ go 1.17
 
 require (
 	github.com/asim/go-micro/v3 v3.6.0
-	lqm.demo.grpc.gomicro/server v1.0.0
 	lqm.demo.grpc.gomicro/proto v1.0.0
 )
 
@@ -45,5 +44,4 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 )
 
-replace lqm.demo.grpc.gomicro/server v1.0.0 => E:\\Project\\Project\\grpc\\go_micro\\server
 replace lqm.demo.grpc.gomicro/proto v1.0.0 => E:\\Project\\Project\\grpc\\go_micro\\proto
