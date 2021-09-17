@@ -1,0 +1,17 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "a demo for grpc node",
+  "main": "serverApp.js",
+  "author": "liqiming",
+  "license": "MIT",
+  "scripts": {
+    "start": "node serverApp.js"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.7"
+  },
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.6.5"
+  }
+}
