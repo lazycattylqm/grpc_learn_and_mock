@@ -5,6 +5,19 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch Java server",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch Java client",
+      "request": "launch",
+      "projectName": "grpc-demo-client",
+      "mainClass": "com.grpc.demo.lqm.App"
+    },
+    {
       "name": "Launch server",
       "type": "go",
       "request": "launch",
