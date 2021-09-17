@@ -18,7 +18,8 @@ const packageDefinition = protoLoader.loadSync(
 const helloServiceProto = grpc.loadPackageDefinition(packageDefinition).hello;
 
 function sayHello(call, callback) {
-    callback(null, { message: 'Hello ' + call.request.name });
+
+    callback(null, { message: `Hello ${call.request.name}, this is node server` });
 }
 
 var server = new grpc.Server();

@@ -6,7 +6,7 @@ import io.grpc.ManagedChannelBuilder;
 
 public class App {
     private static final String TARGET = "localhost:3000";
-    private static final String NAME = "liqiming";
+    private static final String NAME = "liqiming java";
 
     public static void main(String[] args) {
         final ManagedChannel channel = ManagedChannelBuilder.forTarget(TARGET).usePlaintext().build();

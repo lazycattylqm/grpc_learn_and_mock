@@ -20,6 +20,6 @@ const target = 'localhost:3000';
 const client = new helloServiceProto.HelloService(target,
     grpc.credentials.createInsecure());
 
-client.sayHello({ name: "liqiming dy" }, function (err, response) {
+client.SayHello({ name: "liqiming node dy" }, function (err, response) {
     console.log('Greeting:', response.message);
 });

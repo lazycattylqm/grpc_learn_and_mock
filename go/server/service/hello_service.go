@@ -12,7 +12,7 @@ type HelloService struct {
 
 func (s *HelloService) SayHello(ctx context.Context, request *pb.HelloRequest) (*pb.HelloReply, error)  {
 	name := request.Name
-	helloMsg := fmt.Sprintf("Hello %s, this is server", name)
+	helloMsg := fmt.Sprintf("Hello %s, this is golang server", name)
 	return &pb.HelloReply{
 		Message:  helloMsg,
 	}, nil

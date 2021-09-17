@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adab6313-3d41-40d5-87a5-a87c609a59ed" name="Changes" comment="proto as a module" />
+    <list default="true" id="adab6313-3d41-40d5-87a5-a87c609a59ed" name="Changes" comment="files">
+      <change afterPath="$PROJECT_DIR$/../proto/hello_service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client_main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proto/hello_service.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../proto/hello_service.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proto/hello_service_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../proto/hello_service_grpc.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/hello_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/hello_service.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/grpc-demo-client/src/main/java/com/grpc/demo/lqm/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/grpc-demo-client/src/main/java/com/grpc/demo/lqm/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/grpc-demo-lib/src/main/resources/proto/hello_service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/grpc-demo-lib/src/main/resources/proto/hello_service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node/dynamic_code/client/clientApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../node/dynamic_code/client/clientApp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node/dynamic_code/client/proto/hello_service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../node/dynamic_code/client/proto/hello_service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node/dynamic_code/server/proto/hello_service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../node/dynamic_code/server/proto/hello_service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../node/dynamic_code/server/serverApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../node/dynamic_code/server/serverApp.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +131,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="proto as a module" />
-    <option name="LAST_COMMIT_MESSAGE" value="proto as a module" />
+    <MESSAGE value="files" />
+    <option name="LAST_COMMIT_MESSAGE" value="files" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
