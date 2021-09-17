@@ -4,40 +4,40 @@
 var grpc = require('@grpc/grpc-js');
 var hello_service_pb = require('./hello_service_pb.js');
 
-function serialize_HelloReply(arg) {
+function serialize_hello_HelloReply(arg) {
   if (!(arg instanceof hello_service_pb.HelloReply)) {
-    throw new Error('Expected argument of type HelloReply');
+    throw new Error('Expected argument of type hello.HelloReply');
   }
   return Buffer.from(arg.serializeBinary());
 }
 
-function deserialize_HelloReply(buffer_arg) {
+function deserialize_hello_HelloReply(buffer_arg) {
   return hello_service_pb.HelloReply.deserializeBinary(new Uint8Array(buffer_arg));
 }
 
-function serialize_HelloRequest(arg) {
+function serialize_hello_HelloRequest(arg) {
   if (!(arg instanceof hello_service_pb.HelloRequest)) {
-    throw new Error('Expected argument of type HelloRequest');
+    throw new Error('Expected argument of type hello.HelloRequest');
   }
   return Buffer.from(arg.serializeBinary());
 }
 
-function deserialize_HelloRequest(buffer_arg) {
+function deserialize_hello_HelloRequest(buffer_arg) {
   return hello_service_pb.HelloRequest.deserializeBinary(new Uint8Array(buffer_arg));
 }
 
 
 var HelloServiceService = exports.HelloServiceService = {
   sayHello: {
-    path: '/HelloService/SayHello',
+    path: '/hello.HelloService/SayHello',
     requestStream: false,
     responseStream: false,
     requestType: hello_service_pb.HelloRequest,
     responseType: hello_service_pb.HelloReply,
-    requestSerialize: serialize_HelloRequest,
-    requestDeserialize: deserialize_HelloRequest,
-    responseSerialize: serialize_HelloReply,
-    responseDeserialize: deserialize_HelloReply,
+    requestSerialize: serialize_hello_HelloRequest,
+    requestDeserialize: deserialize_hello_HelloRequest,
+    responseSerialize: serialize_hello_HelloReply,
+    responseDeserialize: deserialize_hello_HelloReply,
   },
 };
 

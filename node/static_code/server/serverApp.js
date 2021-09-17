@@ -1,5 +1,4 @@
-const grpc = require('@grpc/grpc-js');
-const { services } = require('./proto')
+const { services, grpc } = require('proto')
 
 const { sayHello } = require('./service/helloService')
 

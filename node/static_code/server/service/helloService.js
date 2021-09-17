@@ -1,4 +1,4 @@
-const { messages } = require('../proto')
+const { messages } = require('proto')
 
 const sayHello = (call, callback) => {
     let reply = new messages.HelloReply();

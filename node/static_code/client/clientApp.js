@@ -1,6 +1,4 @@
-const grpc = require('@grpc/grpc-js');
-
-const { messages, services } = require('proto')
+const { grpc, messages, services } = require('proto');
 
 const target = 'localhost:3000';
 
