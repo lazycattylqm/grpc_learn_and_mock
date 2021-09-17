@@ -4,7 +4,7 @@ import com.grpc.demo.lqm.server.Server;
 
 import java.io.IOException;
 
-public class App {
+public class ServerApp {
     public static void main(String[] args) {
         final Server server = new Server();
         try {

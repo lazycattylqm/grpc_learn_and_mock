@@ -11,7 +11,7 @@ import (
 
 const (
 	addr = "localhost:3000"
-	name = "liqiming"
+	name = "liqiming go"
 )
 
 func main() {

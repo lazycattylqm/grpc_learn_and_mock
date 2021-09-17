@@ -4,7 +4,7 @@ import com.grpc.demo.lqm.client.HelloClient;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
 
-public class App {
+public class ClientApp {
     private static final String TARGET = "localhost:3000";
     private static final String NAME = "liqiming java";
 
