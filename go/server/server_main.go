@@ -3,6 +3,7 @@ package main
 import (
 	pb "example.com/liqiming/proto"
 	"example.com/liqiming/service"
+	"fmt"
 	"google.golang.org/grpc"
 	"log"
 	"net"
@@ -17,7 +18,7 @@ func main() {
 	}
 	server := grpc.NewServer()
 	pb.RegisterHelloServiceServer(server, &service.HelloService{})
-	log.Println("server listening on ", listen.Addr())
+	fmt.Println("server listening on ", listen.Addr())
 	listenErr := server.Serve(listen)
 	if listenErr != nil {
 		log.Fatalf("starting server err %v", listenErr)

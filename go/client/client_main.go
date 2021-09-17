@@ -3,7 +3,8 @@ package main
 import (
 	"context"
 	"encoding/json"
-	pb "example.com/liqiming/client/proto"
+	pb "example.com/liqiming/proto"
+	"fmt"
 	"google.golang.org/grpc"
 	"log"
 )
@@ -32,6 +33,6 @@ func main() {
 	if jsonErr != nil {
 		log.Fatalf("json error ,  %v", jsonErr)
 	}
-	log.Printf("service response is %v\n", string(marshal))
+	fmt.Printf("service response is %v\n", string(marshal))
 
 }
