@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9cb4125-d734-485e-b9b5-c11ba306ccc9" name="Changes" comment="go mod tidy" />
+    <list default="true" id="e9cb4125-d734-485e-b9b5-c11ba306ccc9" name="Changes" comment="go mod tidy">
+      <change beforePath="$PROJECT_DIR$/../../go/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proto/hello_service.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proto/hello_service.pb.micro.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proto/hello_service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../proto/hello_service.proto" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +54,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../go/client" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

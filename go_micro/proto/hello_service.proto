@@ -1,5 +1,7 @@
 syntax = "proto3";
-package hello_service;
+package hello;
+option go_package = "hello";
+option java_package = "lqm.demo.grpc.server.hello";
 service HelloService {
   rpc SayHello(HelloRequest) returns (HelloReply) {}
 }

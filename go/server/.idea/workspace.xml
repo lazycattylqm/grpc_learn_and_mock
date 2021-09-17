@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="adab6313-3d41-40d5-87a5-a87c609a59ed" name="Changes" comment="files">
-      <change beforePath="$PROJECT_DIR$/../client/client_main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../client/client_main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proto/hello_service.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../proto/hello_service.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proto/hello_service_grpc.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/../proto/hello_service_grpc.pb.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/grpc-demo-server/src/main/java/com/grpc/demo/lqm/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/grpc-demo-server/src/main/java/com/grpc/demo/lqm/service/HelloService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_micro/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_micro/client/client.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_micro/proto/hello_service.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_micro/proto/hello_service.pb.micro.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_micro/proto/hello_service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_micro/proto/hello_service.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go_micro/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_micro/server/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../go_micro/server" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -59,7 +61,7 @@
       <recent name="E:\Project\Project\grpc\go\client" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build example.com/liqiming/client">
+  <component name="RunManager" selected="Go Build.go build example.com/liqiming">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="server" />
       <working_directory value="$PROJECT_DIR$" />
@@ -99,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build example.com/liqiming/client" />
         <item itemvalue="Go Build.go build example.com/liqiming" />
+        <item itemvalue="Go Build.go build example.com/liqiming/client" />
       </list>
     </recent_temporary>
   </component>
