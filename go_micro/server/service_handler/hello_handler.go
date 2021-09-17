@@ -1,9 +1,9 @@
-package hello
+package service_handler
 
 import (
 	"context"
 	"fmt"
-	helloPb "lqm.demo.grpc/server/proto/hello"
+	helloPb "lqm.demo.grpc.gomicro/server/proto"
 )
 
 type Server struct{}

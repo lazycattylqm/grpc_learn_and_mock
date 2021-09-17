@@ -1,4 +1,4 @@
-module lqm.demo.grpc/server
+module lqm.demo.grpc.gomicro/server
 
 go 1.17
 

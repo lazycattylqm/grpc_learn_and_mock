@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adab6313-3d41-40d5-87a5-a87c609a59ed" name="Changes" comment="">
+    <list default="true" id="e9cb4125-d734-485e-b9b5-c11ba306ccc9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../client/client.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proto/hello_service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service_handler/hello_handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/server/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/server/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/server/.idea/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/server/.idea/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../go/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../go/server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/../client/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/../client/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client/mock/mock.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/hello/hello.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/hello/hello_service.pb.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/hello/hello_service.pb.micro.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/proto/hello/hello_service.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service_handler/hello/hello_service.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +48,13 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="ProjectId" id="1yA9KKucIzmLHrAv55BC69jgBlb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1yFgSWP0r49ouxByCo3flbWTjLe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -48,47 +65,41 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../go_micro/server" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../client" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Project\Project\grpc\go\client" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Go Build.go build example.com/liqiming/client">
+  <component name="RunManager" selected="Go Build.go build lqm.demo.grpc.gomicro/client">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="server" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="example.com/liqiming" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build example.com/liqiming" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="server" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="example.com/liqiming" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/server_main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build example.com/liqiming/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build lqm.demo.grpc.gomicro/client" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="client" />
       <working_directory value="$PROJECT_DIR$/../client" />
       <kind value="PACKAGE" />
-      <package value="example.com/liqiming/client" />
+      <package value="lqm.demo.grpc.gomicro/client" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/../client/client_main.go" />
+      <filePath value="$PROJECT_DIR$/../client/client.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build lqm.demo.grpc.gomicro/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="lqm.demo.grpc.gomicro/server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/server.go" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="server" />
       <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
       <kind value="DIRECTORY" />
-      <package value="example.com/liqiming" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -96,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build example.com/liqiming/client" />
-        <item itemvalue="Go Build.go build example.com/liqiming" />
+        <item itemvalue="Go Build.go build lqm.demo.grpc.gomicro/client" />
+        <item itemvalue="Go Build.go build lqm.demo.grpc.gomicro/server" />
       </list>
     </recent_temporary>
   </component>
@@ -116,9 +127,6 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

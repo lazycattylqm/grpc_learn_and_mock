@@ -4,7 +4,7 @@
 // 	protoc        v3.17.3
 // source: hello_service.proto
 
-package hello
+package hello_service
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"

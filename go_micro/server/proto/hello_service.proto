@@ -1,5 +1,5 @@
 syntax = "proto3";
-option go_package = "lqm.demo.grpc/server/hello";
+package hello_service;
 service HelloService {
   rpc SayHello(HelloRequest) returns (HelloReply) {}
 }

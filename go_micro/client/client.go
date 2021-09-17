@@ -1,20 +1,19 @@
 package main
 
 import (
-	"client/mock"
 	"context"
 	"fmt"
 	"github.com/asim/go-micro/v3"
 	"log"
-	"lqm.demo.grpc/server/proto/hello"
+	helloPb "lqm.demo.grpc.gomicro/server/proto"
 )
 
 func main() {
 	service := micro.NewService()
 	service.Init()
-	helloService := mock.NewHelloService()
+	helloService := helloPb.NewHelloService("hello.server", service.Client())
 	sayHello, err := helloService.SayHello(
-		context.Background(), &hello.HelloRequest{
+		context.Background(), &helloPb.HelloRequest{
 			Name: "liqiming client",
 		},
 	)
