@@ -4,5 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "description": "a demo for grpc node",
-  "author": "liqiming"
+  "author": "liqiming",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.3.7"
+  },
+  "devDependencies": {
+    "@grpc/proto-loader": "^0.6.5"
+  }
 }

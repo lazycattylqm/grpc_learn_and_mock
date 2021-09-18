@@ -1,28 +1,13 @@
-const basePath = __dirname
-const path = require('path')
-const protoPath = path.join(basePath, 'node_modules', 'proto', 'hello_service.proto');
+const {init, grpc} = require('proto')
 
-const grpc = require('@grpc/grpc-js');
-const protoLoader = require('@grpc/proto-loader');
-
-const packageDefinition = protoLoader.loadSync(
-    protoPath,
-    {
-        keepCase: true,
-        longs: String,
-        enums: String,
-        defaults: true,
-        oneofs: true
-    });
-
-const helloServiceProto = grpc.loadPackageDefinition(packageDefinition).hello;
+const helloServiceProto = init('hello_service.proto').hello;
 
 function sayHello(call, callback) {
 
     callback(null, { message: `Hello ${call.request.name}, this is node server` });
 }
 
-var server = new grpc.Server();
+const server = new grpc.Server();
 server.addService(helloServiceProto.HelloService.service, { sayHello: sayHello });
 server.bindAsync('0.0.0.0:3000', grpc.ServerCredentials.createInsecure(), () => {
     server.start();

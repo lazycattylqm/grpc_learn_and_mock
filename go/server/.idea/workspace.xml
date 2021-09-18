@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adab6313-3d41-40d5-87a5-a87c609a59ed" name="Changes" comment="files">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_micro/client/client.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_micro/client/client.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_micro/proto/hello_service.pb.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_micro/proto/hello_service.pb.micro.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_micro/proto/hello_service.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_micro/proto/hello_service.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../go_micro/server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../go_micro/server/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="adab6313-3d41-40d5-87a5-a87c609a59ed" name="Changes" comment="fix go micro part" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +119,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="proto as a module" />
     <MESSAGE value="files" />
-    <option name="LAST_COMMIT_MESSAGE" value="files" />
+    <MESSAGE value="fix go micro part" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix go micro part" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

@@ -9,10 +9,6 @@
     "start": "node serverApp.js"
   },
   "dependencies": {
-    "@grpc/grpc-js": "^1.3.7",
     "proto": "1.0.0"
-  },
-  "devDependencies": {
-    "@grpc/proto-loader": "^0.6.5"
   }
 }
