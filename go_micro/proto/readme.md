@@ -1,0 +1,1 @@
+protoc --proto_path=. --go_opt=Mhello_service.proto=./ --micro_out=. --go_out=. hello_service.proto
