@@ -4,3 +4,7 @@
 **/yarn.lock
 **/target/**
 **/*.iml
+**/.settings/**
+**/.classpath
+**/.project
+**/.factorypath
