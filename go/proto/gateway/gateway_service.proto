@@ -1,0 +1,23 @@
+syntax = "proto3";
+package gateway;
+option go_package = "lqm.demo.grpc/proto/gateway";
+import "google/api/annotations.proto";
+
+service Gateway {
+  rpc postMethod(Request) returns (Response) {
+    option (google.api.http) = {
+      post: "/v1/echo"
+      body: "*"
+    };
+  }
+
+
+}
+
+message Request {
+  string message = 1;
+}
+
+message Response {
+  string message = 1;
+}
