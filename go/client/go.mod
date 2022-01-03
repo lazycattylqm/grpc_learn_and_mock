@@ -16,4 +16,4 @@ require (
 	google.golang.org/protobuf v1.27.1 // indirect
 )
 
-replace example.com/liqiming/proto v1.0.0 => E:\\Project\\Project\\grpc\\go\\proto
+replace example.com/liqiming/proto v1.0.0 => ../proto
